@@ -9,7 +9,7 @@ create_boxplots(n = 1000, s1 = 2, s2 = 5)
 \arguments{
 \item{n}{sample size for box plots}
 
-\item{s1, s2}{non-negative paramters of the Beta distribution}
+\item{s1, s2}{non-negative parameters of the Beta distribution}
 }
 \value{
 histrogram, summary statistics of data, and box plot
