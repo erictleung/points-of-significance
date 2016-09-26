@@ -31,4 +31,8 @@ ppv(effectSize = 0.5, power = 0.2, alpha = 0.05)
 ppv(effectSize = 0.5, power = 0.5, alpha = 0.05)
 ppv(effectSize = 0.5, power = 0.8, alpha = 0.05)
 }
+\references{
+Krzywinski, Martin, and Naomi Altman. "Points of significance:
+  Power and sample size." Nature Methods 10.12 (2013): 1139-1140.
+}
 
