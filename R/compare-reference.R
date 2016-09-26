@@ -11,7 +11,7 @@
 #' @return Returns a list of values.
 #'
 #' @references Krzywinski, Martin, and Naomi Altman. "Points of significance:
-#' Comparing samples--part I." Nature Methods 11.3 (2014): 215-216.
+#'   Comparing samples--part I." Nature Methods 11.3 (2014): 215-216.
 #'
 #' @examples
 #' compare_reference()
