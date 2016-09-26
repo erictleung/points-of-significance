@@ -1,4 +1,7 @@
 Package: poofsi
 Title: Learn concepts from Nature's "Points of Significance"
-Version: 0.1
+Description: R package to demonstrate concepts taught in the Nature Method
+    series "Points of Significance". Covers topics such as (but not limited to)
+    importance of being uncertain, visualizing data, and experimental designs.
+Version: 0.0.1
 RoxygenNote: 5.0.1
