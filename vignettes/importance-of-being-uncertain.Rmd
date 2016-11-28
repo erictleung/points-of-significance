@@ -1,0 +1,23 @@
+---
+title: "Importance of being uncertain"
+author: "Eric Leung "
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+This vignette reviews the lessons learned in ["Points of significance: Important
+of being uncertain"][uncertain].
+
+[uncertain]: https://doi.org/10.1038/nmeth.2613
+
+Population distribution and its measures
+========================================
+
+```{r Population Distribution}
+library(poofsi)
+population_dist()
+```
