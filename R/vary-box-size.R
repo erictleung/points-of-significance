@@ -13,6 +13,7 @@
 #' @param plotNum number of box plots
 #'
 #' @return Plot box plots of five samples from a normal distribution
+#' @export
 #'
 #' @references Krzywinski, Martin, and Naomi Altman. "Points of significance:
 #'   visualizing samples with box plots." Nature Methods 11.2 (2014): 119-120.

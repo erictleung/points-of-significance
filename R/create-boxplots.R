@@ -4,6 +4,7 @@
 #' @param s1,s2 non-negative parameters of the Beta distribution
 #'
 #' @return histrogram, summary statistics of data, and box plot
+#' @export
 #'
 #' @examples
 #' create_boxplots()

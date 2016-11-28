@@ -15,6 +15,7 @@
 #' @param beta Type II error or the false negative error
 #'
 #' @return list containing the specificity and sensitivity
+#' @export
 #'
 #' @examples
 #' inference(alpha = 0.05, beta = 0.2)

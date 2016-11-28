@@ -13,6 +13,7 @@
 #' @param alpha false positive value or Type I error
 #'
 #' @return positive predictive value
+#' @export
 #'
 #' @references Krzywinski, Martin, and Naomi Altman. "Points of significance:
 #'   Power and sample size." Nature Methods 10.12 (2013): 1139-1140.
