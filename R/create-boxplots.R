@@ -6,6 +6,9 @@
 #' @return histrogram, summary statistics of data, and box plot
 #' @export
 #'
+#' @references Krzywinski, Martin, and Naomi Altman. "Points of significance:
+#'   Visualizing samples with box plots." Nature Methods 11.2 (2014): 119-120.
+#'
 #' @examples
 #' create_boxplots()
 #' create_boxplots(n = 100)
