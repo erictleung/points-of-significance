@@ -5,3 +5,6 @@ Description: R package to demonstrate concepts taught in the Nature Method
     importance of being uncertain, visualizing data, and experimental designs.
 Version: 0.0.1
 RoxygenNote: 5.0.1
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
