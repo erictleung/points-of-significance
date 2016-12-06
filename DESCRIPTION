@@ -4,6 +4,8 @@ Description: R package to demonstrate concepts taught in the Nature Method
     series "Points of Significance". Covers topics such as (but not limited to)
     importance of being uncertain, visualizing data, and experimental designs.
 Version: 0.0.1
+Authors@R: person("Eric", "Leung", email = "eric@erictleung.com", role =
+  c("aut", "cre"))
 RoxygenNote: 5.0.1
 Suggests: knitr,
     rmarkdown
