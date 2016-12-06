@@ -98,6 +98,9 @@ population_dist <- function(mu = 0,
 #' @return Creates three density plots with different center locations
 #' @export
 #'
+#' @references Krzywinski, Martin, and Naomi Altman. "Points of significance:
+#'   Importance of being uncertain." Nature Methods 10.9 (2013): 809-810.
+#'
 #' @examples
 #' location_plot()
 location_plot <- function(mu = c(-5, 0, 5),

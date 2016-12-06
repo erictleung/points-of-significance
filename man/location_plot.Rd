@@ -28,4 +28,8 @@ with a vertical line.
 \examples{
 location_plot()
 }
+\references{
+Krzywinski, Martin, and Naomi Altman. "Points of significance:
+  Importance of being uncertain." Nature Methods 10.9 (2013): 809-810.
+}
 
