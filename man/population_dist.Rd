@@ -18,7 +18,7 @@ Creates density plot with annotations plus prints out mean and
   standard deviation
 }
 \description{
-Creates a density plot
+Creates a density plot with annotations
 }
 \examples{
 population_dist()                # Mean = 0, Stdev = 1, N = 100

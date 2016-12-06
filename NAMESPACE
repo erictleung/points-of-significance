@@ -3,6 +3,7 @@
 export(compare_reference)
 export(create_boxplots)
 export(inference)
+export(location_plot)
 export(population_dist)
 export(ppv)
 export(vary_box_size)

@@ -1,6 +1,6 @@
 #' Generate Population Distribution
 #'
-#' Creates a density plot
+#' Creates a density plot with annotations
 #'
 #' @param mu population mean
 #' @param std population standard deviation
@@ -82,4 +82,59 @@ population_dist <- function(mu = 0,
     # Print out mean and standard deviation
     cat("Mean: ", round(meanPts, 3), "\n")
     cat("Std:  ", round(sdPts, 3))
+}
+
+#' Generate Location Plot
+#'
+#' Creates three density plots with varying means. The means are highlighted
+#' with a vertical line.
+#'
+#' @param mu mean
+#' @param std standard deviation
+#' @param n sample size
+#' @param xmin x-axis minimum limit
+#' @param xmax x-axis maximum limit
+#'
+#' @return Creates three density plots with different center locations
+#' @export
+#'
+#' @examples
+#' location_plot()
+location_plot <- function(mu = c(-5, 0, 5),
+                          std = 1,
+                          n = 100,
+                          xmin = -10,
+                          xmax = 10) {
+
+    # Empty lists to store means and density values
+    pts <- list()
+    densityVals <- list()
+    meanPts <- list()
+
+    # Generate data
+    for (i in seq(length(mu))) {
+        pts[[i]] <- rnorm(n = n, mean = mu[i], sd = std)
+        densityVals[[i]] <- density(pts[[i]])
+        meanPts[[i]] <- mean(pts[[i]])
+    }
+
+    # Start density plot
+    par(mfrow = c(3, 1))
+    for (i in seq(length(mu))) {
+        plot(densityVals[[i]], main = "", xlim = c(xmin, xmax))
+        abline(v = meanPts[[i]], col = "firebrick1")
+        # Population mean
+        text(
+            x = meanPts[[i]] - (sd(pts[[i]]) / 3),
+            y = max(densityVals[[i]]$y) / 2,
+            labels = expression(mu),
+            cex = 1.5
+        )
+    }
+    par(mfrow = c(1, 1))
+
+    # Print out means of each plot
+    for (i in seq(length(mu))) {
+        cat("Mean: ", round(meanPts[[i]], 3), "\n")
+    }
 }
