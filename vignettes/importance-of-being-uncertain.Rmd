@@ -14,10 +14,20 @@ of being uncertain"][uncertain].
 
 [uncertain]: https://doi.org/10.1038/nmeth.2613
 
+```{r Load Package}
+library(poofsi)
+```
+
 Population distribution and its measures
 ========================================
 
-```{r Population Distribution}
-library(poofsi)
+```{r Population Distribution, fig.height=4, fig.width=5}
 population_dist()
 ```
+
+```{r Location and Spread, fig.height=7, fig.width=4}
+location_plot()
+```
+
+Population parameters estimated by sampling
+===========================================
