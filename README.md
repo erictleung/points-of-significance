@@ -8,7 +8,11 @@ of being uncertain, visualizing data, and experimental designs.
 
 `poofsi` comes from "**Po**ints **of** **Si**gnificance."
 
+Another similar series on statistics is given by *Critical Care*, which
+includes a [14 part series on medical statistics][cc].
+
 [pos]: http://www.nature.com/collections/qghhqm/pointsofsignificance
+[cc]: http://www.biomedcentral.com/collections/CC-Medical
 
 ## Installation
 
