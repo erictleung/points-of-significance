@@ -9,8 +9,8 @@ vignette: >
   %\VignetteEncoding{UTF-8}
 ---
 
-This vignette reviews the lessons learned in ["Points of significance: Important
-of being uncertain"][uncertain].
+This vignette reviews the lessons learned in ["Points of Significance:
+Importance of being uncertain"][uncertain].
 
 [uncertain]: https://doi.org/10.1038/nmeth.2613
 
@@ -31,3 +31,9 @@ location_plot()
 
 Population parameters estimated by sampling
 ===========================================
+
+Distribution of sample means from different distributions
+=========================================================
+
+Mean, standard deviation, and standard error of the mean
+========================================================
