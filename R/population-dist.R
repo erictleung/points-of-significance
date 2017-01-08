@@ -89,6 +89,10 @@ population_dist <- function(mu = 0,
 #' Creates three density plots with varying means. The means are highlighted
 #' with a vertical line.
 #'
+#' While using RStudio, error may be thrown if plot window is too small. Error
+#' thrown will say figure margins are too large. To fix, adjust the plot window
+#' to be larger and the function should plot normally.
+#'
 #' @param mu mean
 #' @param std standard deviation
 #' @param n sample size

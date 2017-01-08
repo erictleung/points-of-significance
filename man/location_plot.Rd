@@ -25,6 +25,11 @@ Creates three density plots with different center locations
 Creates three density plots with varying means. The means are highlighted
 with a vertical line.
 }
+\details{
+While using RStudio, error may be thrown if plot window is too small. Error
+thrown will say figure margins are too large. To fix, adjust the plot window
+to be larger and the function should plot normally.
+}
 \examples{
 location_plot()
 }
