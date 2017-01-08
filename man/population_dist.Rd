@@ -27,7 +27,8 @@ population_dist(mu = 1, std = 3) # Mean = 1, Stdev = 3, N = 100
 population_dist(std = 3, n = 10) # Mean = 0, Stdev = 3, N = 10
 }
 \references{
-Krzywinski, Martin, and Naomi Altman. "Points of significance:
-  Importance of being uncertain." Nature Methods 10.9 (2013): 809-810.
+Krzywinski, Martin, and Naomi Altman.
+  \href{http://dx.doi.org/10.1038/nmeth.2613}{"Points of significance:
+  Importance of being uncertain."} Nature Methods 10.9 (2013): 809-810.
 }
 

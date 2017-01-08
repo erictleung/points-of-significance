@@ -10,8 +10,9 @@
 #'   standard deviation
 #' @export
 #'
-#' @references Krzywinski, Martin, and Naomi Altman. "Points of significance:
-#'   Importance of being uncertain." Nature Methods 10.9 (2013): 809-810.
+#' @references Krzywinski, Martin, and Naomi Altman.
+#'   \href{http://dx.doi.org/10.1038/nmeth.2613}{"Points of significance:
+#'   Importance of being uncertain."} Nature Methods 10.9 (2013): 809-810.
 #'
 #' @examples
 #' population_dist()                # Mean = 0, Stdev = 1, N = 100
@@ -102,8 +103,9 @@ population_dist <- function(mu = 0,
 #' @return Creates three density plots with different center locations
 #' @export
 #'
-#' @references Krzywinski, Martin, and Naomi Altman. "Points of significance:
-#'   Importance of being uncertain." Nature Methods 10.9 (2013): 809-810.
+#' @references Krzywinski, Martin, and Naomi Altman.
+#'   \href{http://dx.doi.org/10.1038/nmeth.2613}{"Points of significance:
+#'   Importance of being uncertain."} Nature Methods 10.9 (2013): 809-810.
 #'
 #' @examples
 #' location_plot()
