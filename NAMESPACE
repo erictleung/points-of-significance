@@ -2,6 +2,7 @@
 
 export(compare_reference)
 export(create_boxplots)
+export(distr_to_sample_from)
 export(inference)
 export(location_plot)
 export(population_dist)

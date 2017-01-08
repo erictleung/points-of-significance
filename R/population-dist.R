@@ -157,3 +157,25 @@ location_plot <- function(mu = c(-5, 0, 5),
     # Set margins back to normal
     par(mar = originalMargin)
 }
+
+#' Effects of Random Distribution Sampling
+#'
+#' Creates non-normal population distribution to draw samples from and shows
+#' resulting sample means.
+#'
+#' @param samples integer; number of samples to take from population
+#'   distribution
+#'
+#' @return N/A
+#' @export
+#'
+#' @examples
+#' distr_to_sample_from()
+distr_to_sample_from <- function(samples = 100) {
+
+    # Create random non-normal distribution
+    means <- c(0, 10, 20, 25)
+    stds <- c(2, 2, 3, 2)
+    num <- c(30, 15, 40, 30)
+    points <- unlist(mapply(rnorm, num, means, stds))
+}
