@@ -1,6 +1,9 @@
 #' Generate Population Distribution
 #'
-#' Creates a density plot with annotations
+#' Creates a density plot with mean and standard deviation annotations.
+#'
+#' This function aims to show that the mean, standard deviation, and sample size
+#' of the distribution can influence the distribution's shape and size.
 #'
 #' @param mu population mean
 #' @param std population standard deviation

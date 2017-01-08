@@ -18,7 +18,11 @@ Creates density plot with annotations plus prints out mean and
   standard deviation
 }
 \description{
-Creates a density plot with annotations
+Creates a density plot with mean and standard deviation annotations.
+}
+\details{
+This function aims to show that the mean, standard deviation, and sample size
+of the distribution can influence the distribution's shape and size.
 }
 \examples{
 population_dist()                # Mean = 0, Stdev = 1, N = 100
