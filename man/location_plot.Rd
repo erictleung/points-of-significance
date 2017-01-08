@@ -12,7 +12,7 @@ location_plot(mu = c(-5, 0, 5), std = 1, n = 100, xmin = -10,
 
 \item{std}{standard deviation}
 
-\item{n}{sample size}
+\item{n}{integer; sample size}
 
 \item{xmin}{x-axis minimum limit}
 

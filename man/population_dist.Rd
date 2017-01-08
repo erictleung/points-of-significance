@@ -11,7 +11,7 @@ population_dist(mu = 0, std = 1, n = 100)
 
 \item{std}{population standard deviation}
 
-\item{n}{sample size}
+\item{n}{integer; sample size}
 }
 \value{
 Creates density plot with annotations plus prints out mean and

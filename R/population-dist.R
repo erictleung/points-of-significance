@@ -7,7 +7,7 @@
 #'
 #' @param mu population mean
 #' @param std population standard deviation
-#' @param n sample size
+#' @param n integer; sample size
 #'
 #' @return Creates density plot with annotations plus prints out mean and
 #'   standard deviation
@@ -99,7 +99,7 @@ population_dist <- function(mu = 0,
 #'
 #' @param mu mean
 #' @param std standard deviation
-#' @param n sample size
+#' @param n integer; sample size
 #' @param xmin x-axis minimum limit
 #' @param xmax x-axis maximum limit
 #'
