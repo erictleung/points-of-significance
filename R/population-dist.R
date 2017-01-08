@@ -109,6 +109,10 @@ location_plot <- function(mu = c(-5, 0, 5),
                           xmin = -10,
                           xmax = 10) {
 
+    # Save original margin settings and set new ones
+    originalMargin <- par("mar")
+    par(mar = c(1, 1, 1, 1))
+
     # Empty lists to store means and density values
     pts <- list()
     densityVals <- list()
@@ -140,4 +144,7 @@ location_plot <- function(mu = c(-5, 0, 5),
     for (i in seq(length(mu))) {
         cat("Mean: ", round(meanPts[[i]], 3), "\n")
     }
+
+    # Set margins back to normal
+    par(mar = originalMargin)
 }
