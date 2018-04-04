@@ -20,4 +20,3 @@ resulting sample means.
 \examples{
 distr_to_sample_from()
 }
-

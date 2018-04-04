@@ -32,4 +32,3 @@ vary_box_size()
 Krzywinski, Martin, and Naomi Altman. "Points of significance:
   visualizing samples with box plots." Nature Methods 11.2 (2014): 119-120.
 }
-

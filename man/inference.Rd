@@ -32,4 +32,3 @@ inference(alpha = 0.05, beta = 0.2)
 inference(alpha = 0.001, beta = 0.2)
 inference(alpha = 0.05, beta = 0.5)
 }
-

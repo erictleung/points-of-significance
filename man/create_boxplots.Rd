@@ -26,4 +26,3 @@ create_boxplots(n = 100, s1 = 5, s2 = 2)
 Krzywinski, Martin, and Naomi Altman. "Points of significance:
   Visualizing samples with box plots." Nature Methods 11.2 (2014): 119-120.
 }
-

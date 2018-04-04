@@ -35,4 +35,3 @@ Krzywinski, Martin, and Naomi Altman.
   \href{http://dx.doi.org/10.1038/nmeth.2613}{"Points of significance:
   Importance of being uncertain."} Nature Methods 10.9 (2013): 809-810.
 }
-
